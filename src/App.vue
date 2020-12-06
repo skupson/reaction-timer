@@ -24,7 +24,6 @@ export default {
     start() {
       this.delay = 2000 + Math.random() * 5000;
       this.isPlaying = true;
-      console.log(this.delay);
       this.score = 0;
       this.$refs.button.classList.add("disabled");
     },
