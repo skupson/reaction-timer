@@ -1,6 +1,6 @@
 <template>
-  <div class="results">
-    <p>Reaction time is {{ score }} ms</p>
+  <div ref="results" class="results">
+    <p>Your reaction time is {{ score }} ms</p>
   </div>
 </template>
 
